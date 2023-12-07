@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyRPG.Model", "FantasyRPG.Model\FantasyRPG.Model.csproj", "{B081DAF1-4F6D-48D6-BF8E-AF38A5275E99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantasyRPG.Model", "FantasyRPG.Model\FantasyRPG.Model.csproj", "{B081DAF1-4F6D-48D6-BF8E-AF38A5275E99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyRPG.UnitTesting", "FantasyRPG.UnitTesting\FantasyRPG.UnitTesting.csproj", "{18E59225-DC93-4B49-A0CE-CD653DBF9A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantasyRPG.UnitTesting", "FantasyRPG.UnitTesting\FantasyRPG.UnitTesting.csproj", "{18E59225-DC93-4B49-A0CE-CD653DBF9A82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyRPG.IntegrationTesting", "FantasyRPG.IntegrationTesting\FantasyRPG.IntegrationTesting.csproj", "{182812DB-1320-4F5F-A847-4912C56C61D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FantasyRPG.IntegrationTesting", "FantasyRPG.IntegrationTesting\FantasyRPG.IntegrationTesting.csproj", "{182812DB-1320-4F5F-A847-4912C56C61D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyRPGModel", "FantasyRPGModel\FantasyRPGModel.csproj", "{BDB8CD71-DF22-4FC9-8316-995E187BAD19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{182812DB-1320-4F5F-A847-4912C56C61D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{182812DB-1320-4F5F-A847-4912C56C61D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{182812DB-1320-4F5F-A847-4912C56C61D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB8CD71-DF22-4FC9-8316-995E187BAD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB8CD71-DF22-4FC9-8316-995E187BAD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB8CD71-DF22-4FC9-8316-995E187BAD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB8CD71-DF22-4FC9-8316-995E187BAD19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
